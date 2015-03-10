@@ -14,6 +14,7 @@
 		8940F3BB1AAEF2620023416F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8940F3BA1AAEF2620023416F /* Images.xcassets */; };
 		8940F3BE1AAEF2620023416F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8940F3BC1AAEF2620023416F /* LaunchScreen.xib */; };
 		8940F3CA1AAEF2620023416F /* JRCustomTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8940F3C91AAEF2620023416F /* JRCustomTabBarControllerTests.m */; };
+		8940F40C1AAF02190023416F /* JRCustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8940F40B1AAF02190023416F /* JRCustomTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8940F3C31AAEF2620023416F /* JRCustomTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRCustomTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8940F3C81AAEF2620023416F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8940F3C91AAEF2620023416F /* JRCustomTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRCustomTabBarControllerTests.m; sourceTree = "<group>"; };
+		8940F40A1AAF02190023416F /* JRCustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRCustomTabBarController.h; sourceTree = "<group>"; };
+		8940F40B1AAF02190023416F /* JRCustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRCustomTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				8940F3BA1AAEF2620023416F /* Images.xcassets */,
 				8940F3BC1AAEF2620023416F /* LaunchScreen.xib */,
 				8940F3AD1AAEF2620023416F /* Supporting Files */,
+				8940F40A1AAF02190023416F /* JRCustomTabBarController.h */,
+				8940F40B1AAF02190023416F /* JRCustomTabBarController.m */,
 			);
 			path = JRCustomTabBarController;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				8940F3B61AAEF2620023416F /* ViewController.m in Sources */,
 				8940F3B31AAEF2620023416F /* AppDelegate.m in Sources */,
+				8940F40C1AAF02190023416F /* JRCustomTabBarController.m in Sources */,
 				8940F3B01AAEF2620023416F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +420,7 @@
 				8940F3CF1AAEF2620023416F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8940F3D01AAEF2620023416F /* Build configuration list for PBXNativeTarget "JRCustomTabBarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				8940F3D21AAEF2620023416F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
